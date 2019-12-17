@@ -1,0 +1,634 @@
+Last login: Tue Dec 17 13:34:45 on ttys002
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MBP-de-Servanne:~ servanne$ ls
+Applications			Nextcloud
+Creative Cloud Files		Pictures
+Desktop				Public
+Documents			VirtualBox VMs
+Downloads			Vision Objects
+Google Drive			best1050.txt
+Library				openvpn-client_macsery.ovpn
+Movies				packets.pcap
+Music				pass
+MyScript Documents		toto.txt
+MBP-de-Servanne:~ servanne$ ls .
+Applications			Nextcloud
+Creative Cloud Files		Pictures
+Desktop				Public
+Documents			VirtualBox VMs
+Downloads			Vision Objects
+Google Drive			best1050.txt
+Library				openvpn-client_macsery.ovpn
+Movies				packets.pcap
+Music				pass
+MyScript Documents		toto.txt
+MBP-de-Servanne:~ servanne$ ls -a
+.				.vscode
+..				.wget-hsts
+.CFUserTextEncoding		Applications
+.DS_Store			Creative Cloud Files
+.Trash				Desktop
+.android			Documents
+.atom				Downloads
+.bash_history			Google Drive
+.bash_sessions			Library
+.composer			Movies
+.config				Music
+.cups				MyScript Documents
+.gitconfig			Nextcloud
+.ipython			Pictures
+.lesshst			Public
+.notable.json			VirtualBox VMs
+.npm				Vision Objects
+.oracle_jre_usage		best1050.txt
+.phpls				openvpn-client_macsery.ovpn
+.pylint.d			packets.pcap
+.ssh				pass
+.subversion			toto.txt
+.viminfo
+MBP-de-Servanne:~ servanne$ ls Pictures/
+Photos Library.photoslibrary
+MBP-de-Servanne:~ servanne$ ls ..
+Guest		Shared		servanne
+MBP-de-Servanne:~ servanne$ ls /bin/
+[		dd		launchctl	pwd		test
+bash		df		link		rm		unlink
+cat		echo		ln		rmdir		wait4path
+chmod		ed		ls		sh		zsh
+cp		expr		mkdir		sleep
+csh		hostname	mv		stty
+dash		kill		pax		sync
+date		ksh		ps		tcsh
+MBP-de-Servanne:~ servanne$ ls -l /bin/
+total 4888
+-rwxr-xr-x  1 root  wheel    35840 24 oct 02:40 [
+-r-xr-xr-x  1 root  wheel   623344 24 oct 02:40 bash
+-rwxr-xr-x  1 root  wheel    36768 24 oct 02:40 cat
+-rwxr-xr-x  1 root  wheel    47296 24 oct 02:40 chmod
+-rwxr-xr-x  1 root  wheel    42272 24 oct 02:40 cp
+-rwxr-xr-x  1 root  wheel   528688 24 oct 02:40 csh
+-rwxr-xr-x  1 root  wheel   110848 24 oct 02:40 dash
+-rwxr-xr-x  1 root  wheel    41728 24 oct 02:40 date
+-rwxr-xr-x  1 root  wheel    45168 24 oct 02:40 dd
+-rwxr-xr-x  1 root  wheel    36512 24 oct 02:40 df
+-rwxr-xr-x  1 root  wheel    31264 24 oct 02:40 echo
+-rwxr-xr-x  1 root  wheel    67200 24 oct 02:40 ed
+-rwxr-xr-x  1 root  wheel    36240 24 oct 02:40 expr
+-rwxr-xr-x  1 root  wheel    31408 24 oct 02:40 hostname
+-rwxr-xr-x  1 root  wheel    31808 24 oct 02:40 kill
+-r-xr-xr-x  1 root  wheel  1300128 24 oct 02:40 ksh
+-rwxr-xr-x  1 root  wheel   138432 24 oct 02:40 launchctl
+-rwxr-xr-x  1 root  wheel    32160 24 oct 02:40 link
+-rwxr-xr-x  1 root  wheel    32160 24 oct 02:40 ln
+-rwxr-xr-x  1 root  wheel    51888 24 oct 02:40 ls
+-rwxr-xr-x  1 root  wheel    31696 24 oct 02:40 mkdir
+-rwxr-xr-x  1 root  wheel    37472 24 oct 02:40 mv
+-rwxr-xr-x  1 root  wheel   124464 24 oct 02:40 pax
+-rwsr-xr-x  1 root  wheel    64416 24 oct 02:40 ps
+-rwxr-xr-x  1 root  wheel    31392 24 oct 02:40 pwd
+-rwxr-xr-x  1 root  wheel    37296 24 oct 02:40 rm
+-rwxr-xr-x  1 root  wheel    31296 24 oct 02:40 rmdir
+-rwxr-xr-x  1 root  wheel    31440 24 oct 02:40 sh
+-rwxr-xr-x  1 root  wheel    31200 24 oct 02:40 sleep
+-rwxr-xr-x  1 root  wheel    45312 24 oct 02:40 stty
+-rwxr-xr-x  1 root  wheel    30976 24 oct 02:40 sync
+-rwxr-xr-x  1 root  wheel   528688 24 oct 02:40 tcsh
+-rwxr-xr-x  1 root  wheel    35840 24 oct 02:40 test
+-rwxr-xr-x  1 root  wheel    37296 24 oct 02:40 unlink
+-rwxr-xr-x  1 root  wheel    31280 24 oct 02:40 wait4path
+-rwxr-xr-x  1 root  wheel   633328 24 oct 02:40 zsh
+MBP-de-Servanne:~ servanne$ pwd
+/Users/servanne
+MBP-de-Servanne:~ servanne$ cd Documents/
+MBP-de-Servanne:Documents servanne$ pwd
+/Users/servanne/Documents
+MBP-de-Servanne:Documents servanne$ cd ..
+MBP-de-Servanne:~ servanne$ pwd
+/Users/servanne
+MBP-de-Servanne:~ servanne$ cd /opt/
+MBP-de-Servanne:opt servanne$ pwd
+/opt
+MBP-de-Servanne:opt servanne$ cd ../Users/servanne/
+MBP-de-Servanne:~ servanne$ cd /usr/bin/
+MBP-de-Servanne:bin servanne$ ls
+2to3-					machine
+2to3-2.7				mail
+AssetCacheLocatorUtil			mailq
+AssetCacheManagerUtil			mailx
+AssetCacheTetheratorUtil		make
+BuildStrings				makeinfo
+CpMac					malloc_history
+DeRez					man
+GetFileInfo				manpath
+IOAccelMemory				mcxquery
+MergePef				mcxrefresh
+MvMac					mddiagnose
+ResMerger				mdfind
+Rez					mdimport
+RezDet					mdls
+RezWack					mdutil
+SafeEjectGPU				memory_pressure
+SetFile					mesg
+SplitForks				mg
+UnRezWack				mib2c
+a2p					mib2c-update
+a2p5.18					mig
+actool					mkbom
+addftinfo				mkdep
+afclip					mkfifo
+afconvert				mklocale
+afhash					mktemp
+afida					mmroff
+afinfo					mnthome
+afmtodit				moo-outdated
+afplay					moo-outdated5.18
+afscexpand				moo-outdated5.28
+agentxtrap				moose-outdated
+agvtool					moose-outdated5.18
+alias					moose-outdated5.28
+app-sso					more
+applesingle				mp2bug
+appletviewer				msgs
+apply					nano
+apropos					native2ascii
+apt					nbdst
+ar					nc
+arch					ncal
+as					ncctl
+asa					ncdestroy
+asctl					ncinit
+assetutil				nclist
+at					ncurses5.4-config
+atos					neqn
+atq					net-server
+atrm					net-server5.18
+atsutil					net-server5.28
+automator				net-snmp-cert
+auval					net-snmp-config
+auvaltool				net-snmp-create-v3-user
+avbdiagnose				nettop
+avbutil					newaliases
+avconvert				newgrp
+avmetareadwrite				newproc.d
+awk					nfsstat
+banner					nice
+base64					nl
+basename				nm
+bashbug					nmedit
+batch					nohup
+bc					notifyutil
+bg					nroff
+biff					nscurl
+binhex					nslookup
+binhex.pl				nsupdate
+binhex5.18.pl				objdump
+binhex5.28.pl				ocspcheck
+bioutil					od
+bison					odutil
+bitesize.d				open
+brctl					opendiff
+bsdtar					opensnoop
+bspatch					openssl
+bundle					orbd
+bundler					osacompile
+bunzip2					osadecompile
+bzcat					osalang
+bzcmp					osascript
+bzdiff					otool
+bzegrep					pack200
+bzfgrep					package-stash-conflicts
+bzgrep					package-stash-conflicts5.18
+bzip2					package-stash-conflicts5.28
+bzip2recover				pagesize
+bzless					pagestuff
+bzmore					passwd
+c++					paste
+c++filt					patch
+c2ph					pathchk
+c2ph5.18				pathopens.d
+c89					pbcopy
+c99					pbpaste
+caffeinate				pcap-config
+cal					pcsctest
+calendar				perl
+cancel					perl5.18
+cap_mkdb				perl5.28
+captoinfo				perlbug
+cc					perlbug5.18
+cd					perlbug5.28
+certtool				perldoc
+checknr					perldoc5.18
+chflags					perldoc5.28
+chfn					perlivp
+chgrp					perlivp5.18
+chpass					perlivp5.28
+chsh					perlthanks
+cksum					perlthanks5.18
+clang					perlthanks5.28
+clang++					pfbtops
+clear					pgrep
+cmp					phar
+cmpdylib				phar.phar
+codesign				php
+codesign_allocate			php-config
+col					phpize
+colcrt					pic
+colldef					pico
+colrm					piconv
+column					piconv5.18
+comm					piconv5.28
+command					pidpersec.d
+compress				pip3
+compression_tool			pkgbuild
+config_data				pkill
+config_data5.18				pl
+corelist				pl2pm
+corelist5.18				pl2pm5.18
+corelist5.28				pl2pm5.28
+cpan					plockstat
+cpan2dist				pluginkit
+cpan2dist5.18				plutil
+cpan5.18				pmset
+cpan5.28				pod2html
+cpanp					pod2html5.18
+cpanp-run-perl				pod2html5.28
+cpanp-run-perl5.18			pod2latex
+cpanp5.18				pod2latex5.18
+cpio					pod2man
+cpp					pod2man5.18
+cpu_profiler.d				pod2man5.28
+cpuctl					pod2readme
+cpuwalk.d				pod2readme5.18
+crc32					pod2readme5.28
+crc325.18				pod2text
+crc325.28				pod2text5.18
+creatbyproc.d				pod2text5.28
+crlrefresh				pod2usage
+crontab					pod2usage5.18
+csdiagnose				pod2usage5.28
+csgather				podchecker
+csplit					podchecker5.18
+csreq					podchecker5.28
+csrutil					podselect
+ctags					podselect5.18
+ctf_insert				podselect5.28
+cu					policytool
+cups-config				post-grohtml
+cupstestppd				power_report.sh
+curl					powermetrics
+curl-config				ppdc
+cut					ppdhtml
+cvaffinity				ppdi
+cvcp					ppdmerge
+cvmkdir					ppdpo
+cvmkfile				pr
+dappprof				pre-grohtml
+dapptrace				priclass.d
+darwinup				pridist.d
+db_archive				printenv
+db_checkpoint				printf
+db_codegen				procsystime
+db_deadlock				productbuild
+db_dump					productsign
+db_hotbackup				profiles
+db_load					prove
+db_printlog				prove5.18
+db_recover				prove5.28
+db_stat					psed
+db_upgrade				psed5.18
+db_verify				pstopdf
+dbicadmin				pstruct
+dbicadmin5.18				pstruct5.18
+dbicadmin5.28				ptar
+dbilogstrip				ptar5.18
+dbilogstrip5.18				ptar5.28
+dbilogstrip5.28				ptardiff
+dbiprof					ptardiff5.18
+dbiprof5.18				ptardiff5.28
+dbiprof5.28				ptargrep
+dbiproxy				ptargrep5.18
+dbiproxy5.18				ptargrep5.28
+dbiproxy5.28				pwhich
+dc					pwhich5.18
+debinhex.pl				pwhich5.28
+debinhex5.18.pl				pwpolicy
+debinhex5.28.pl				pydoc
+defaults				pydoc2.7
+delv					python
+desdp					python-config
+diagnose-fu				python2
+diff					python2.7
+diff3					python2.7-config
+diffstat				python3
+dig					pythonw
+dirname					pythonw2.7
+dispqlen.d				qlmanage
+ditto					quota
+dmc					rails
+dns-sd					rake
+drutil					ranlib
+dscacheutil				rdoc
+dscl					read
+dserr					readlink
+dsexport				rebase
+dsimport				redo_prebinding
+dsmemberutil				refer
+dsymutil				renice
+dtruss					reset
+du					resolveLinks
+dwarfdump				rev
+easy_install				ri
+easy_install-2.7			rmic
+egrep					rmid
+enc2xs					rmiregistry
+enc2xs5.18				rpcgen
+enc2xs5.28				rs
+encguess				rsync
+encguess5.28				ruby
+encode_keychange			rview
+env					rvim
+eqn					rwbypid.d
+erb					rwbytype.d
+errinfo					rwsnoop
+ex					s2p
+execsnoop				s2p5.18
+expand					safaridriver
+expect					sample
+extcheck				sampleproc
+eyapp					sandbox-exec
+eyapp5.18				say
+eyapp5.28				sc_usage
+false					scandeps.pl
+fc					scandeps5.18.pl
+fddist					scandeps5.28.pl
+fdesetup				schemagen
+fg					scp
+fgrep					screen
+file					script
+filebyproc.d				sdef
+fileproviderctl				sdiff
+filtercalltree				sdp
+find					sdx
+find2perl				security
+find2perl5.18				sed
+findrule				seeksize.d
+findrule5.18				segedit
+findrule5.28				seq
+finger					serialver
+fixproc					servertool
+flex					setregion
+flex++					setuids.d
+fmt					sfltool
+fold					sftp
+fontrestore				shar
+footprint				shasum
+format-sql				shasum5.18
+format-sql5.18				shasum5.28
+format-sql5.28				shlock
+from					showmount
+fs_usage				sigdist.d
+funzip					sips
+fuser					size
+fwkdp					slogin
+fwkpfv					smbutil
+g++					smtpd.py
+gatherheaderdoc				smtpd2.7.py
+gcc					snfsdefrag
+gcore					snmp-bridge-mib
+gcov					snmpbulkget
+gdiffmk					snmpbulkwalk
+gem					snmpconf
+gen_bridge_metadata			snmpdelta
+gencat					snmpdf
+genstrings				snmpget
+getconf					snmpgetnext
+getopt					snmpinform
+getopts					snmpnetstat
+git					snmpset
+git-receive-pack			snmpstatus
+git-shell				snmptable
+git-upload-archive			snmptest
+git-upload-pack				snmptranslate
+gm4					snmptrap
+gnumake					snmpusm
+gperf					snmpvacm
+grep					snmpwalk
+grn					sntp
+grodvi					soelim
+groff					sort
+groffer					spfd
+grog					spfd5.18
+grolbp					spfd5.28
+grolj4					spfquery
+grops					spfquery5.18
+grotty					spfquery5.28
+groups					splain
+gunzip					splain5.18
+gzcat					splain5.28
+gzexe					split
+gzip					sqlite3
+h2ph					ssh
+h2ph5.18				ssh-add
+h2ph5.28				ssh-agent
+h2xs					ssh-copy-id
+h2xs5.18				ssh-keygen
+h2xs5.28				ssh-keyscan
+hash					stapler
+hdid					stat
+hdiutil					stringdups
+hdxml2manxml				strings
+head					strip
+headerdoc2html				stty.pl
+heap					stty5.18.pl
+hexdump					stty5.28.pl
+hidutil					su
+hiutil					sudo
+host					sum
+hostinfo				svn
+hotspot.d				svnlook
+hpftodit				sw_vers
+hpmdiagnose				swift
+htmltree				swiftc
+htmltree5.18				symbols
+htmltree5.28				symbolscache
+ibtool					syscallbypid.d
+iconutil				syscallbyproc.d
+iconv					syscallbysysc.d
+ictool					sysdiagnose
+id					syslog
+idle					systemextensionsctl
+idle2.7					tab2space
+idlj					tabs
+imptrace				tail
+indent					tailspin
+indxbib					talk
+info					tar
+infocmp					taskinfo
+infokey					tbl
+infotocap				tbtdiagnose
+install					tccutil
+install-info				tclsh
+install_name_tool			tclsh8.5
+instmodsh				tee
+instmodsh5.18				texi2dvi
+instmodsh5.28				texi2pdf
+instruments				texindex
+iofile.d				textutil
+iofileb.d				tfmtodit
+iopattern				tftp
+iopending				thermal
+iosnoop					tic
+iotop					tidy
+ip2cc					tiff2icns
+ip2cc5.18				tiffutil
+ip2cc5.28				time
+ipcount					timer_analyser.d
+ipcount5.18				timerfires
+ipcount5.28				timesyncanalyse
+ipcrm					tkcon
+ipcs					tkmib
+ippeveprinter				tmdiagnose
+ippfind					tmutil
+ipptool					tnameserv
+iprofiler				toe
+iptab					top
+iptab5.18				tops
+iptab5.28				topsyscall
+irb					topsysproc
+jar					touch
+jarsigner				tput
+java					tr
+javac					trace
+javadoc					traptoemail
+javah					treereg
+javap					treereg5.18
+javapackager				treereg5.28
+javaws					trimforce
+jcmd					troff
+jconsole				true
+jcontrol				tset
+jdb					tsort
+jdeps					tty
+jhat					type
+jhsdb					ul
+jimage					ulimit
+jinfo					umask
+jjs					unalias
+jmap					uname
+jmc					uncompress
+jobs					unexpand
+join					unifdef
+jot					unifdefall
+jps					uniq
+jrunscript				units
+jsadebugd				unpack200
+jshell					unvis
+json_pp					unzip
+json_pp5.18				unzipsfx
+json_pp5.28				update_dyld_shared_cache
+json_xs					update_dyld_shared_cache_root_mode
+json_xs5.28				uptime
+jstack					users
+jstat					uucp
+jstatd					uudecode
+jvisualvm				uuencode
+kcc					uuidgen
+kdestroy				uulog
+kextutil				uuname
+keytool					uupick
+kgetcred				uustat
+kill.d					uuto
+killall					uux
+kinit					vi
+klist					view
+kpasswd					vim
+krb5-config				vimdiff
+kswitch					vimtutor
+ktrace					vis
+lam					vm_stat
+last					vmmap
+lastcomm				vtool
+lastwords				w
+latency					wait
+layerutil				wall
+ld					wc
+ldapadd					wdutil
+ldapcompare				what
+ldapdelete				whatis
+ldapexop				whereis
+ldapmodify				which
+ldapmodrdn				who
+ldappasswd				whoami
+ldapsearch				whois
+ldapurl					wish
+ldapwhoami				wish8.5
+leaks					write
+leave					wsgen
+less					wsimport
+lessecho				xar
+lex					xargs
+libnetcfg				xattr
+libnetcfg5.18				xattr-2.7
+libnetcfg5.28				xcode-select
+libtool					xcodebuild
+lipo					xcrun
+lkbib					xcscontrol
+lldb					xcsdiagnose
+llvm-g++				xed
+llvm-gcc				xgettext.pl
+loads.d					xgettext5.18.pl
+locale					xgettext5.28.pl
+localedef				xip
+locate					xjc
+lockstat				xml2-config
+log					xml2man
+logger					xmlcatalog
+login					xmllint
+logname					xpath
+look					xpath5.18
+lookbib					xpath5.28
+lorder					xslt-config
+lp					xsltproc
+lpoptions				xsubpp
+lpq					xsubpp5.18
+lpr					xsubpp5.28
+lprm					xxd
+lpstat					yaa
+lsappinfo				yacc
+lsbom					yes
+lskq					zcat
+lsm					zcmp
+lsmp					zdiff
+lsvfs					zegrep
+lwp-download				zfgrep
+lwp-download5.18			zforce
+lwp-download5.28			zgrep
+lwp-dump				zip
+lwp-dump5.18				zipcloak
+lwp-dump5.28				zipdetails
+lwp-mirror				zipdetails5.18
+lwp-mirror5.18				zipdetails5.28
+lwp-mirror5.28				zipgrep
+lwp-request				zipinfo
+lwp-request5.18				zipnote
+lwp-request5.28				zipsplit
+m4					zless
+macbinary				zmore
+macerror				znew
+macerror5.18				zprint
+macerror5.28
+MBP-de-Servanne:bin servanne$ cd ~
+MBP-de-Servanne:~ servanne$ pwd
+/Users/servanne
+MBP-de-Servanne:~ servanne$ cd ~/Pictures/
+MBP-de-Servanne:Pictures servanne$ ls
+Photos Library.photoslibrary
+MBP-de-Servanne:Pictures servanne$ pwd
+/Users/servanne/Pictures
+MBP-de-Servanne:Pictures servanne$ cd
+MBP-de-Servanne:~ servanne$ ls ~/Documents/
+Digital Editions			S-VIARD-DE-GALBERT-WILDSCHOOL.pdf
+MBP-de-Servanne:~ servanne$
